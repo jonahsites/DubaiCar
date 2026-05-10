@@ -28,7 +28,7 @@ const Navbar = () => {
         <div className="flex flex-col">
           <span className="text-[9px] font-bold tracking-[0.5em] text-[#C5A47E] uppercase">Official // Concierge</span>
           <div className="flex items-center gap-2">
-            <h1 className="text-xl font-black font-syne tracking-tighter uppercase">Exclusive Dubai</h1>
+            <h1 className="text-xl font-black font-syne tracking-tighter uppercase text-white">Dubai Car Rental</h1>
           </div>
         </div>
         
@@ -97,11 +97,11 @@ const Hero = () => {
               transition={{ duration: 0.8, ease: "easeOut" }}
               className="flex flex-col gap-4 mb-8"
             >
-              <span className="text-[10px] font-bold tracking-[0.7em] text-[#C5A47E] uppercase">Curated // Fleet // Legacy</span>
+              <span className="text-[10px] font-bold tracking-[0.7em] text-[#C5A47E] uppercase">Premium // Fleet // 24/7 Service</span>
               <h1 className="text-6xl md:text-9xl font-black font-syne tracking-[ -0.05em] leading-[0.85] uppercase italic italic">
-                BEYOND <br /> 
-                <span className="text-[#C5A47E]">PLATINUM</span> <br />
-                STANDARD.
+                DRIVE THE <br /> 
+                <span className="text-[#C5A47E]">DUBAI</span> <br />
+                EXPERIENCE.
               </h1>
             </motion.div>
             
@@ -112,7 +112,7 @@ const Hero = () => {
               className="max-w-md"
             >
               <p className="text-xs uppercase font-bold tracking-[0.25em] leading-loose opacity-40 mb-12">
-                Experience absolute exclusivity with our precision motorcar collection and maritime fleet. Hand-curated itineraries engineered for the global elite.
+                Premier luxury and supercar rentals in the heart of Dubai. Free delivery to your doorstep, 24/7 dedicated support, and the most exclusive fleet in the region.
               </p>
               
               <div className="bg-white/5 border border-white/10 p-8 flex flex-col gap-6 backdrop-blur-sm">
@@ -148,8 +148,8 @@ const Hero = () => {
                 alt="Dubai"
               />
               <div className="absolute top-8 -right-8 bg-black border border-white/10 p-4">
-                 <span className="block text-[8px] opacity-40 uppercase tracking-widest">Efficiency</span>
-                 <span className="text-2xl font-black italic tracking-tighter">99.8%</span>
+                 <span className="block text-[8px] opacity-40 uppercase tracking-widest">Availability</span>
+                 <span className="text-2xl font-black italic tracking-tighter">100% LIVE</span>
               </div>
             </motion.div>
           </div>
@@ -175,9 +175,9 @@ const ServiceSection = () => {
     <section id="fleet" className="py-32 bg-[#050505] border-t border-white/10">
       <div className="max-w-7xl mx-auto px-6 text-white">
         <div className="flex flex-col md:flex-row justify-between items-start mb-24 gap-8">
-           <div className="flex flex-col gap-4">
-              <span className="text-[9px] font-bold tracking-[0.6em] text-[#C5A47E] uppercase">Category // Matrix</span>
-              <h2 className="text-5xl md:text-7xl font-black font-syne uppercase tracking-tighter italic">THE FLEET <br /> <span className="opacity-20 text-white">SPECIFICATIONS</span></h2>
+               <div className="flex flex-col gap-4">
+              <span className="text-[9px] font-bold tracking-[0.6em] text-[#C5A47E] uppercase">Fleet // Inventory</span>
+              <h2 className="text-5xl md:text-7xl font-black font-syne uppercase tracking-tighter italic">LUXURY <br /> <span className="opacity-20 text-white">RENTALS</span></h2>
            </div>
            <div className="max-w-md pt-4">
               <p className="text-[10px] opacity-40 font-bold uppercase tracking-[0.3em] leading-relaxed">
@@ -196,10 +196,10 @@ const ServiceSection = () => {
               index: "88%"
             },
             { 
-              t: "Supercars", 
+              t: "Sport & Luxury", 
               d: "The world's most exclusive automotive icons. 850BHP average output.", 
               i: "https://images.unsplash.com/photo-1525609004556-c46c7d6cf023?auto=format&fit=crop&q=80&w=1200",
-              tag: "850+ BHP AVAIL.",
+              tag: "FREE DELIVERY",
               index: "99%"
             },
             { 
@@ -269,7 +269,7 @@ const LegacySection = () => {
          </div>
          <div className="grid grid-cols-1 md:grid-cols-3 gap-24">
             {[
-              {y: "2018", t: "Genesis", d: "Exclusive Dubai launches with a focus on private aviation and yacht concierge."},
+              {y: "2018", t: "Genesis", d: "Dubai Car Rental launches with a focus on premium automotive concierge and delivery."},
               {y: "2020", t: "Fleet Zenith", d: "Integration of the first V12 supercar collective and luxury desert campsite."},
               {y: "2024", t: "Global Hub", d: "Deployment of 24/7 digital concierge architecture for premium members."}
             ].map((item, i) => (
@@ -320,22 +320,22 @@ const ContactSection = () => {
           </p>
           
           <div className="flex flex-col gap-10">
-             <div className="flex items-center gap-6 group cursor-pointer">
-                <div className="w-14 h-14 border border-white/10 flex items-center justify-center group-hover:border-[#C5A47E] group-hover:bg-[#C5A47E]/5 transition-all rounded-full">
-                   <Phone size={20} className="text-[#C5A47E]" />
+             <a href="https://wa.me/971527337196" target="_blank" rel="noopener noreferrer" className="flex items-center gap-6 group cursor-pointer">
+                <div className="w-14 h-14 border border-white/10 flex items-center justify-center group-hover:border-[#25D366] group-hover:bg-[#25D366]/10 transition-all rounded-full">
+                   <Phone size={20} className="text-[#25D366]" />
                 </div>
                 <div>
-                   <span className="block text-[8px] font-mono uppercase tracking-[0.4em] opacity-20">Priority // VOICE</span>
-                   <span className="text-xl font-bold tracking-widest font-outfit uppercase">+971 58 123 4567</span>
+                   <span className="block text-[8px] font-mono uppercase tracking-[0.4em] opacity-20">Direct // WHATSAPP</span>
+                   <span className="text-xl font-bold tracking-widest font-outfit uppercase">+971 52 733 7196</span>
                 </div>
-             </div>
+             </a>
              <div className="flex items-center gap-6 group cursor-pointer">
                 <div className="w-14 h-14 border border-white/10 flex items-center justify-center group-hover:border-[#C5A47E] group-hover:bg-[#C5A47E]/5 transition-all rounded-full">
                    <Instagram size={20} className="text-[#C5A47E]" />
                 </div>
                 <div>
                    <span className="block text-[8px] font-mono uppercase tracking-[0.4em] opacity-20">Digital // ACCESS</span>
-                   <span className="text-xl font-bold tracking-widest font-outfit uppercase">@exclusive.dubai</span>
+                   <span className="text-xl font-bold tracking-widest font-outfit uppercase">@dubaicarrental.official</span>
                 </div>
              </div>
           </div>
@@ -408,7 +408,7 @@ const Footer = () => (
       <div className="flex flex-col md:flex-row justify-between items-center gap-8">
         <div className="flex flex-col items-center md:items-start">
           <div className="flex items-center gap-2">
-            <span className="font-syne font-black text-xl tracking-tighter uppercase whitespace-nowrap">Exclusive Dubai</span>
+            <span className="font-syne font-black text-xl tracking-tighter uppercase whitespace-nowrap">Dubai Car Rental</span>
           </div>
           <span className="text-[8px] font-mono opacity-20 mt-1">25.2048° N, 55.2708° E</span>
         </div>
